@@ -4,6 +4,7 @@ class Services::CreateHero
   end
 
   def call
+    Hero.create!(hero_params)
   end
 
   private

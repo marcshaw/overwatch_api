@@ -4,6 +4,7 @@ class Services::CreateAbility
   end
 
   def call
+    Ability.create!(ability_params)
   end
 
   private
