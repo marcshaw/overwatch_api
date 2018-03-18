@@ -6,7 +6,7 @@ class ParseHeroData
   def call
     hero_data.map do |data|
       {
-        :id => hero_id(data)
+        :id => hero_id(data),
         :name => hero_name(data),
         :real_name => hero_real_name(data),
         :health => hero_health(data),

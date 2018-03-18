@@ -1,4 +1,4 @@
-require 'rspec_helper'
+require 'rails_helper'
 
-describe CreateHero do
+describe Services::CreateHero do
 end

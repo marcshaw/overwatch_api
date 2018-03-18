@@ -15,6 +15,7 @@ describe ParseHeroData do
 
     let(:hero_1) do
       {
+        'id': 1,
         'name': 'test',
         'real_name': 'real_test',
         'health': 100,
@@ -26,6 +27,7 @@ describe ParseHeroData do
 
     let(:hero_2) do
       {
+        'id': 2,
         'name': 'test2',
         'real_name': 'real_test2',
         'health': 50,

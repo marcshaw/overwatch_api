@@ -1,4 +1,4 @@
-require 'rspec_helper'
+require 'rails_helper'
 
 describe AbilitySerializer do
 end

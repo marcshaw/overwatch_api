@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe HeroController, type: :controller do
+RSpec.describe HerosController, type: :controller do
   describe "GET #index" do
     subject(:index_request) { get :index, params: { format: :json } }
 
